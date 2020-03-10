@@ -4,6 +4,6 @@ python:
   - "3.6"
   - "3.6.5"
   - "3.8"
-install: pip install -r requirement.txt
+install: pip install -r requirment.txt
 script:
   - coverage run -m unittest discover
